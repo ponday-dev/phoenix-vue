@@ -1,0 +1,27 @@
+version: '3'
+services:
+  db:
+    image: mysql:5.7.22
+    volumes:
+      - mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: gJwWACGZqaukCjL7
+
+  app:
+    build: .
+    tty: true
+    volumes:
+      - ./server:/app
+    ports:
+      - "80:80"
+      - "4000:4000"
+    command: mix phx.server
+    depends_on:
+      - db
+
+volumes:
+  mysql:
+    driver: local
+
