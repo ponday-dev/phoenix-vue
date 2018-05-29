@@ -1,3 +1,9 @@
+必須パッケージインストール
+
+```sh
+npm install
+```
+
 Phoenixプロジェクト生成
 
 ```sh
@@ -48,3 +54,8 @@ Phoenix起動
 docker-compose up -d
 ```
 
+watch
+
+```sh
+npm start -- <app_name>_web
+```
