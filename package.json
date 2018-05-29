@@ -4,7 +4,7 @@
   "description": "Phoenixプロジェクト生成",
   "main": "index.js",
   "scripts": {
-    "start": "./watcher.sh"
+    "start": "docker-compose up -d && ./watcher.sh"
   },
   "repository": {
     "type": "git",
