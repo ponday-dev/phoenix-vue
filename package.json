@@ -1,0 +1,22 @@
+{
+  "name": "phoenix-vue",
+  "version": "1.0.0",
+  "description": "Phoenixプロジェクト生成",
+  "main": "index.js",
+  "scripts": {
+    "start": "./watcher.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ponday-dev/phoenix-vue.git"
+  },
+  "author": "ponday",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ponday-dev/phoenix-vue/issues"
+  },
+  "homepage": "https://github.com/ponday-dev/phoenix-vue#readme",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0"
+  }
+}
