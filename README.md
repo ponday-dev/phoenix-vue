@@ -7,7 +7,7 @@ npm install
 Phoenixプロジェクト生成
 
 ```sh
-docker-compose run app mix phx.new server --app <app_name> --database mysql --no-brunch
+docker-compose run app mix phx.new . --app <app_name> --database mysql --no-brunch
 ```
 
 DB接続設定
